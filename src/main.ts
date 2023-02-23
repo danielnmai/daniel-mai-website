@@ -11,4 +11,8 @@ const app = createApp(App);
 app.use(createPinia());
 app.use(router);
 
+app.config.errorHandler = (err) => {
+  console.log("PAPA error here ", err);
+};
+
 app.mount("#app");
