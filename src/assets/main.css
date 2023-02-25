@@ -1,10 +1,30 @@
 @import './base.css';
 
+@font-face {
+  font-family: GaramondRegular;
+  src: url('./fonts/Garamond_Regular.ttf');
+}
+
+@font-face {
+  font-family: GaramondBold;
+  src: url('./fonts/Garamond_Bold.ttf');
+}
+
+@font-face {
+  font-family: GaramondItalic;
+  src: url('./fonts/Garamond_Italic.ttf');
+}
+
+body {
+  font-family: GaramondRegular;
+  font-size: 20px;
+}
+
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal;
 }
 
