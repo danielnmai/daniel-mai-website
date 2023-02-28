@@ -4,21 +4,22 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <header>
-    <img
+  <header class="leading-normal max-h-screen mt-10">
+    <!-- <img
       alt="Vue logo"
-      class="logo"
+      class="block mt-0 mx-auto mb-8 w-[125px] h-[125px] p-1"
       src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
+    /> -->
 
-    <div class="wrapper">
+    <div>
       <HelloWorld msg="Daniel Mai" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+      <nav class="w-full text-center">
+        <RouterLink class="inline-block px-5" to="/">Home</RouterLink>
+        <RouterLink
+          class="inline-block px-5 border-solid border-l-2 border-[--color-border]"
+          to="/about"
+          >About
+        </RouterLink>
       </nav>
     </div>
   </header>
@@ -27,52 +28,12 @@ import HelloWorld from "./components/HelloWorld.vue";
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
 @media (min-width: 1024px) {
   header {
     display: flex;
-    place-items: center;
+    align-items: flex-start;
     padding-right: calc(var(--section-gap) / 2);
   }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
   header .wrapper {
     display: flex;
     place-items: flex-start;
