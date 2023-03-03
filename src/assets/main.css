@@ -4,6 +4,10 @@
   font-family: GaramondRegular;
   src: url('./fonts/Garamond_Regular.ttf');
 }
+@font-face {
+  font-family: GaramondLight;
+  src: url('./fonts/Garamond_Light.ttf');
+}
 
 @font-face {
   font-family: GaramondBold;
@@ -18,21 +22,14 @@
 body {
   font-family: GaramondRegular;
   font-size: 1.25rem;
+  font-weight: normal ;
 }
 
  /* smaller than 1024px width */
 #app {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0 5rem;
   padding: 2rem;
-  font-weight: normal;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
 }
 
 @media (hover: hover) {
@@ -45,6 +42,7 @@ a,
 @media (min-width: 1024px) {
   #app {
     display: grid;
+    /* left fixed for menu, right takes the rest of space */
     grid-template-columns: 400px 1fr;
   }
 }

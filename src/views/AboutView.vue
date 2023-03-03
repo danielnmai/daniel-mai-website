@@ -2,7 +2,7 @@
   <div class="min-h-full">
     <h1 class="text-[2rem] font-bold">About Me</h1>
     <p class="mt-5">
-      Hi, I am Daniel Mai, a senior software engineer based in California. I
+      Hi! I am Daniel Mai, a senior software engineer based in California. I
       have built more than 15 software projects for Infuse, a software
       development agency from 2018 to 2023. Those projects' deadlines are as
       short as 3 months and as long as 2 years.

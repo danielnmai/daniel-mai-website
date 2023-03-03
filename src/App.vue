@@ -12,14 +12,18 @@ import Headline from "./components/TheHeadline.vue";
     /> -->
 
     <div>
-      <Headline title="Daniel Mai" />
-      <nav class="w-full text-center lg:text-left text-base mt-5">
-        <RouterLink class="inline-block px-5" to="/">Home</RouterLink>
-        <RouterLink
-          class="inline-block px-5 border-solid border-l-2 border-[--color-border]"
-          to="/about"
-          >About
-        </RouterLink>
+      <Headline title="DANIEL MAI" />
+      <nav class="flex flex-col w-full text-center lg:text-left text-base mt-5">
+        <RouterLink class="max-w-fit mt-2 text-lg" to="/">Home</RouterLink>
+        <RouterLink class="max-w-fit mt-2 text-lg" to="/about"
+          >About</RouterLink
+        >
+        <RouterLink class="max-w-fit mt-2 text-lg" to="/portfolio"
+          >Work</RouterLink
+        >
+        <RouterLink class="max-w-fit mt-2 text-lg" to="/contact"
+          >Contact</RouterLink
+        >
       </nav>
     </div>
   </header>
