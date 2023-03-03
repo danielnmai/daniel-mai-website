@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full">
+  <main class="min-h-full">
     <h1 class="text-[2rem] font-bold">About Me</h1>
     <p class="mt-5">
       Hi! I am Daniel Mai, a senior software engineer based in California. I
@@ -17,5 +17,5 @@
       I graduated from Northwestern Polytechnic University with a Bachelor
       degree in Computer Science.
     </p>
-  </div>
+  </main>
 </template>

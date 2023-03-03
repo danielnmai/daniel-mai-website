@@ -2,6 +2,6 @@
 
 <template>
   <main>
-    <div>This is a Contact page</div>
+    <div>This is a landing page</div>
   </main>
 </template>
