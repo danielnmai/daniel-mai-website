@@ -7,11 +7,12 @@ defineProps<{
 
 <template>
   <div class="mb-8">
-    <a class="font-bold w-max" target="_blank" rel="noopener">
+    <hr />
+    <a class="font-bold w-max my-5" :href="href" target="_blank" rel="noopener">
       <slot name="heading"></slot>
     </a>
     <slot name="photo"></slot>
-    <p>
+    <p class="my-5 mb-10">
       <slot name="details"></slot>
     </p>
   </div>

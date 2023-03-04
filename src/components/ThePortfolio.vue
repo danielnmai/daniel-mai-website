@@ -3,12 +3,12 @@ import PortfolioItem from "./PortfolioItem.vue";
 </script>
 
 <template>
-  <PortfolioItem>
+  <PortfolioItem href="https://www.payconnect.com/">
     <template #heading>PayConnect Platform V2</template>
     <template #photo>
       <img
-        alt="project_screenshot"
-        class="max-w-3xl"
+        alt="project1_screenshot"
+        class="max-w-xl"
         src="@/assets/pictures/project1.jpg"
       />
     </template>
@@ -18,6 +18,13 @@ import PortfolioItem from "./PortfolioItem.vue";
   </PortfolioItem>
   <PortfolioItem>
     <template #heading>Genshin Impact Guide</template>
+    <template #photo>
+      <img
+        alt="project2_screenshot"
+        class="max-w-[200px]"
+        src="@/assets/pictures/project2.jpg"
+      />
+    </template>
     <template #details
       >A mobile app providing character build guidance for Genshin Impact, a
       popular RPG game. Written with React Native.
