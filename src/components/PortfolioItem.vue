@@ -1,15 +1,16 @@
 <script setup lang="ts">
 defineProps<{
   imgURL?: string;
+  href?: string;
 }>();
 </script>
 
 <template>
-  <div>
-    <h3>
+  <div class="mb-8">
+    <a class="font-bold w-max" target="_blank" rel="noopener">
       <slot name="heading"></slot>
-    </h3>
-    <img />
+    </a>
+    <slot name="photo"></slot>
     <p>
       <slot name="details"></slot>
     </p>
