@@ -24,19 +24,13 @@ body {
   font-size: 1.25rem;
   font-weight: normal;
   background-color: hsla(160, 100%, 37%, 0.4);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 main {
   margin-top: 2rem;
-}
-
- /* smaller than 1024px width */
-#app {
-  max-width: 1280px;
-  margin: 0 5rem;
-  padding: 2rem;
-  background-color: white;
-  min-height: 100vh;
 }
 
 /* Underline styles */
@@ -45,6 +39,7 @@ a {
   position: relative;
   padding: 0.1em 0;
   cursor: pointer;
+  width: fit-content;
 }
 
 /* Fade in */
@@ -66,14 +61,36 @@ a:focus::after {
   transform: translate3d(0, 0.1em, 0);
 }
 
+ /* mobile phone */
+ #app {
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+  background-color: white;
+  a {
+    text-align: center;
+  }
+}
+
+/* tablet screen */
+@media (min-width: 768px) {
+  #app {
+    width: 100%;
+    margin: 0 5rem;
+
+  }
+}
 /* large screen */
 @media (min-width: 1024px) {
   #app {
     display: grid;
+    margin: 0 5rem;
     /* left fixed for menu, right takes the rest of space */
     grid-template-columns: 400px 1fr;
   }
 }
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

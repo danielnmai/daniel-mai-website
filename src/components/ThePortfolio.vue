@@ -8,7 +8,7 @@ import PortfolioItem from "./PortfolioItem.vue";
     <template #photo>
       <img
         alt="project1_screenshot"
-        class="max-w-xl"
+        class="max-h-[500px]"
         src="@/assets/pictures/project1.jpg"
       />
     </template>
@@ -21,7 +21,7 @@ import PortfolioItem from "./PortfolioItem.vue";
     <template #photo>
       <img
         alt="project2_screenshot"
-        class="max-w-[200px]"
+        class="max-h-[500px]"
         src="@/assets/pictures/project2.jpg"
       />
     </template>
