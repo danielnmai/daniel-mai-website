@@ -12,7 +12,7 @@ app.use(createPinia());
 app.use(router);
 
 app.config.errorHandler = (err) => {
-  console.log("PAPA error here ", err);
+  console.log("Error ", err);
 };
 
 app.mount("#app");

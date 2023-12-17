@@ -15,9 +15,6 @@ import Headline from "./components/TheHeadline.vue";
           <RouterLink class="mt-2 text-lg" to="/portfolio">Work</RouterLink>
         </div>
         <div class="flex justify-center lg:justify-start">
-          <RouterLink class="mt-2 text-lg" to="/about">About</RouterLink>
-        </div>
-        <div class="flex justify-center lg:justify-start">
           <RouterLink class="mt-2 text-lg" to="/contact">Contact</RouterLink>
         </div>
       </nav>

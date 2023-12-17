@@ -67,9 +67,6 @@ a:focus::after {
   margin: 0;
   padding: 2rem;
   background-color: white;
-  a {
-    text-align: center;
-  }
 }
 
 /* tablet screen */
@@ -77,7 +74,6 @@ a:focus::after {
   #app {
     width: 100%;
     margin: 0 5rem;
-
   }
 }
 /* large screen */
@@ -89,7 +85,6 @@ a:focus::after {
     grid-template-columns: 400px 1fr;
   }
 }
-
 
 @tailwind base;
 @tailwind components;
