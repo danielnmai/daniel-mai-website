@@ -13,8 +13,9 @@
     </p>
     <p class="mt-5">
       In my free time, I am an avid PC gamer and enjoy reading books and working
-      out. A one-time IronMan finisher, I am also a triathlete and spend time
-      doing swimming, cycling and running on a daily basis.
+      out. I am also an accomplished triathlete, have been an Ironman finisher
+      myself. You'll find me spend time doing swimming, biking and running on a
+      daily basis.
     </p>
     <p class="mt-5">
       I graduated from Northwestern Polytechnic University with a Bachelor
